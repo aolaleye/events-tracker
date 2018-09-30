@@ -65,11 +65,11 @@
         }
     )
 
-    - __Style Binding__: Sets inline style based on ternary statement (i.e. 
+- __Style Binding__: Sets inline style based on ternary statement (i.e. 
         <div [style.color]="event?.time === '8:00 am' ? '#003300' : '#bbb'">
     )
 
-    - __[ngStyle]__: Sets inline styles based on ternary statements within the object (i.e. 
+- __[ngStyle]__: Sets inline styles based on ternary statements within the object (i.e. 
         <div [ngStyle]="{'color': event?.time === '8:00 am' ? '#003300' : '#bbb', 'font-weight': event?.time === '8:00 am' ? 'bold' : 'normal'}">
 
         OR
@@ -84,3 +84,9 @@
             }
         }
     ) 
+
+- __Services__: Allow you to define business logic in a separate file and then inject whatever services we need and when we need it
+
+- __Dependency Injection__:
+
+

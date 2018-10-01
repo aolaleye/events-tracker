@@ -20,5 +20,11 @@
           {{event?.location?.city}}, {{event?.location?.country}}
         </address>
       </div>
+      <div *ngIf="event?.onlineUrl," class="col-md-6">
+        <div>
+          <strong>Online URL:</strong><br />
+          {{event?.onlineUrl}}<br />
+        </div>
+      </div>
     </div>
   </div>
